@@ -14,6 +14,8 @@ function testFunc() {
 // const result = inventory.find( fruit => fruit.name === 'cherries' );
 
 function superbowlWin(array) {
-  const win = array.find(win => win.result === "W" )
-  if (win) {return win.year}
+  const win = array.find(r => r.result === "W" )
+  if (win) {
+    return win.year
+  }
 }
